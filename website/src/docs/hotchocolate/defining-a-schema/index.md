@@ -2,7 +2,22 @@
 title: "Schema basics"
 ---
 
-Use this section as an introduction to explain what a reader can expect of this document.
+# Flavours
+
+With Hot Chocolate we strongly believe that no framework should impact the code style of developers, so we supply three approaches to define your schema. You're free to mix them up or use one, which suits your style best and is the best solution for a specific problem.
+
+The code-first approaches (both Pure Code-First and Code-First) let us built GraphQL schemas with .NET types and it gives us all the goodness of strong types, static typing, and the confidence of using the C# compiler to validate our code.
+There is no need to learn GraphQL's SDL (Schema Definition Language) syntax in order to specify our schema, we can do everything in our favorite .NET language.
+
+The schema-first approach allows us to use GraphQL SDL to define a schema or to use existing schemas and implement execution logic with Hot Chocolate.
+
+## Pure Code-First
+
+PCF approach allows us to write clean C# code with usage of attributes.
+
+## Code-First
+
+## Schema-First
 
 # Headlines
 
