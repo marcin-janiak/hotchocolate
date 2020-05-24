@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.PureCodeFirst.Books", "AspNetCore.PureCodeFirst.Books.csproj", "{FDCE4FE3-3DF1-4D29-BF6A-D988193FF023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.Subscriptions.InMemory", "..\..\src\HotChocolate\Core\src\Subscriptions.InMemory\HotChocolate.Subscriptions.InMemory.csproj", "{DD54E176-5A7C-459E-B164-26315C8222BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore\HotChocolate.AspNetCore.csproj", "{B2154E8B-22FC-4D75-894F-AECE60391931}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore.Authorization", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Authorization\HotChocolate.AspNetCore.Authorization.csproj", "{C0D1D86A-2402-44EF-ADCE-897D232E025C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore.Playground", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Playground\HotChocolate.AspNetCore.Playground.csproj", "{B414A002-31B3-4392-AC2D-13A121907131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore.Voyager", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Voyager\HotChocolate.AspNetCore.Voyager.csproj", "{DF9A5C5F-CD4C-42DC-B650-D4D484506056}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore.Subscriptions", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Subscriptions\HotChocolate.AspNetCore.Subscriptions.csproj", "{7CB666F2-FB0B-41F0-B7E0-E06255ECC951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolate.AspNetCore.Abstractions", "..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Abstractions\HotChocolate.AspNetCore.Abstractions.csproj", "{56AD54D5-FC49-42BB-85AC-ED2BA87E2D12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDCE4FE3-3DF1-4D29-BF6A-D988193FF023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCE4FE3-3DF1-4D29-BF6A-D988193FF023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCE4FE3-3DF1-4D29-BF6A-D988193FF023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCE4FE3-3DF1-4D29-BF6A-D988193FF023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2154E8B-22FC-4D75-894F-AECE60391931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2154E8B-22FC-4D75-894F-AECE60391931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AD54D5-FC49-42BB-85AC-ED2BA87E2D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AD54D5-FC49-42BB-85AC-ED2BA87E2D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D1D86A-2402-44EF-ADCE-897D232E025C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D1D86A-2402-44EF-ADCE-897D232E025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B414A002-31B3-4392-AC2D-13A121907131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B414A002-31B3-4392-AC2D-13A121907131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB666F2-FB0B-41F0-B7E0-E06255ECC951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB666F2-FB0B-41F0-B7E0-E06255ECC951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9A5C5F-CD4C-42DC-B650-D4D484506056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9A5C5F-CD4C-42DC-B650-D4D484506056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD54E176-5A7C-459E-B164-26315C8222BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD54E176-5A7C-459E-B164-26315C8222BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

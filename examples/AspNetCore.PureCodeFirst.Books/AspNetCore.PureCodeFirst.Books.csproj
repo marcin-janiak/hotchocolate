@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\HotChocolate\AspNetCore\src\AspNetCore.Playground\HotChocolate.AspNetCore.Playground.csproj" />
+      <ProjectReference Include="..\..\src\HotChocolate\AspNetCore\src\AspNetCore\HotChocolate.AspNetCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.4" />
+    </ItemGroup>
+
+
+</Project>
